@@ -8,8 +8,18 @@ Uniswap V2 前端代码解析-part 1:  https://www.bilibili.com/video/BV1Uv411N7
 # Uniswap V2
 
 ## Contract
+主要合约 :
+- `UniswapV2Router02`: 路由合约，负责跟用户交互；
+- `UniswapFactory`: 工厂合约，常见pair(即pool);
+- `UniswapPari`: 具体交易对合约，负责实际交易。
 
 ## SDK
+
+## Design Comments
+
+关于设计的一些思考 [design comments](./design/design-comments.md)
+
+一些动图演示 [graphs](./design/graphs.md)
 
 ## Interface
 
